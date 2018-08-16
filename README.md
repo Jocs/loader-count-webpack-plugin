@@ -1,6 +1,6 @@
 ## Loader-count-webpack-plugin
 
-这是一个 webpage 插件，帮你统计项目中不同的 webpack loader 所处理的文件数目，特别是 `node_modules` 文件夹中被处理的文件，并在控制台中将结果输出。
+这是一个 webpack 插件，帮你统计项目中不同的 webpack loader 所处理的文件数目，特别是 `node_modules` 文件夹中被处理的文件，并在控制台中将结果输出。
 
 ### Why write this plugin?
 

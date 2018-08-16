@@ -1,5 +1,5 @@
 const path = require('path')
-const LoaderCountPlugin = require('loader-count-webpack-plugin')
+const LoaderCountPlugin = require('../index')
 
 module.exports = {
   mode: 'production',

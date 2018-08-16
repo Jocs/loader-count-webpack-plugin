@@ -1,0 +1,21 @@
+{
+  "name": "loader-count-example",
+  "version": "1.0.0",
+  "description": "test loader count",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "keywords": [
+    "webpack",
+    "example"
+  ],
+  "author": " <ransixi@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "pdfjs-dist": "^2.0.489",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "worker-loader": "^2.0.0"
+  }
+}

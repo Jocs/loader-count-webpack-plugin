@@ -1,0 +1,7 @@
+npm-debug.log
+node_modules
+coverage
+example/dist
+*.pem
+.idea/
+.DS_Store

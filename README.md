@@ -6,6 +6,12 @@
 
 在最近的项目中，我遇到了一个奇怪的 bug，引入 `pdfjs-dist` 模块后，加载 pdf 文件时，始终不发送 Ajax 请求，最后才找到原因，是因为我在项目中引入了 `worker-loader` 来处理以 `.worker.js` 结尾的文件，恰好在 `pdfjs-dist/build/pdf.js` 文件中，引入了 `pdf.worker.js` 文件，而该文件不需要 `worker-loader` 来处理，最终导致了 bug 产生。为了以后不在出现类似的 bug，我写了这个插件。
 
+### Install
+
+```sh
+npm i loader-count-webpack-plugin
+```
+
 ### How to use?
 
 ```javascript

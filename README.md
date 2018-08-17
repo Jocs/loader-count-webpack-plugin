@@ -16,7 +16,7 @@ npm i loader-count-webpack-plugin
 
 ```javascript
 const path = require('path')
-const LoaderCountPlugin = require('../index')
+const LoaderCountPlugin = require('loader-count-webpack-plugin')
 
 module.exports = {
   mode: 'production',
@@ -38,6 +38,10 @@ module.exports = {
   ]
 }
 ```
+
+### Result
+
+![](./result.jpg)
 
 ### License
 

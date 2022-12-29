@@ -13,9 +13,9 @@
   "author": " <ransixi@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "pdfjs-dist": "^2.0.489",
-    "webpack": "^4.16.5",
-    "webpack-cli": "^3.1.0",
-    "worker-loader": "^2.0.0"
+    "pdfjs-dist": "^2.16.105",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "worker-loader": "^3.0.8"
   }
 }
